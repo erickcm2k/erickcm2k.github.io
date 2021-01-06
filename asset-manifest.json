@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.16864d7b.chunk.css",
-    "main.js": "/static/js/main.b475970d.chunk.js",
-    "main.js.map": "/static/js/main.b475970d.chunk.js.map",
+    "main.js": "/static/js/main.8db8295b.chunk.js",
+    "main.js.map": "/static/js/main.8db8295b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90fbcd79.js",
     "runtime-main.js.map": "/static/js/runtime-main.90fbcd79.js.map",
-    "static/js/2.c5cb0c72.chunk.js": "/static/js/2.c5cb0c72.chunk.js",
-    "static/js/2.c5cb0c72.chunk.js.map": "/static/js/2.c5cb0c72.chunk.js.map",
+    "static/js/2.563ead72.chunk.js": "/static/js/2.563ead72.chunk.js",
+    "static/js/2.563ead72.chunk.js.map": "/static/js/2.563ead72.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.16864d7b.chunk.css.map": "/static/css/main.16864d7b.chunk.css.map",
-    "static/js/2.c5cb0c72.chunk.js.LICENSE.txt": "/static/js/2.c5cb0c72.chunk.js.LICENSE.txt",
+    "static/js/2.563ead72.chunk.js.LICENSE.txt": "/static/js/2.563ead72.chunk.js.LICENSE.txt",
     "static/media/biblioteca.c8631cb9.png": "/static/media/biblioteca.c8631cb9.png",
     "static/media/calculadora.12aa4016.png": "/static/media/calculadora.12aa4016.png",
     "static/media/career-quiz.8811d242.png": "/static/media/career-quiz.8811d242.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.90fbcd79.js",
-    "static/js/2.c5cb0c72.chunk.js",
+    "static/js/2.563ead72.chunk.js",
     "static/css/main.16864d7b.chunk.css",
-    "static/js/main.b475970d.chunk.js"
+    "static/js/main.8db8295b.chunk.js"
   ]
 }
