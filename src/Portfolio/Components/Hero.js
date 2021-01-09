@@ -34,7 +34,7 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1yoauTkuNizFu6aNa8eNiNBMyEU2P1wkr/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZvIMTZJD-0y7DoReCMVBTXUZKASoeaeB/view?usp=sharing"
             >
               <button className="about-me--button">View my CV</button>
             </a>
