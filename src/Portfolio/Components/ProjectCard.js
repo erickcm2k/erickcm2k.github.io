@@ -6,10 +6,16 @@ const ProjectCard = (props) => {
     window.open(url);
   };
 
+  const { projectImage } = props;
   return (
     <article className={classes.card}>
       <figure className={classes.projectImageContainer}>
-        <img src={props.projectImage} alt={props.projectName} className={classes.projectImage} />
+        <img
+          style={{ backgroundImage: projectImage }}
+          src={props.projectImage}
+          alt={props.projectName}
+          className={classes.projectImage}
+        />
       </figure>
       <div className={classes.cardBody}>
         <h2 className={classes.projectName}>{props.projectName}</h2>
@@ -31,10 +37,10 @@ const ProjectCard = (props) => {
               onClick={() => btnClick(props.github)}
               className={classes.githubButton}
             >
-              View on Github
+              View on GitHub
             </button>
           )}
-          {props.url &&(
+          {props.url && (
             <button
               onClick={() => btnClick(props.url)}
               className={classes.visitButton}

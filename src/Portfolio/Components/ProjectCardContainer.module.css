@@ -1,14 +1,25 @@
 .projectSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  gap: 2rem 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 50rem;
   margin-top: 5rem;
   padding-bottom: 5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .projectSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (max-width: 480px) {
   .projectSection {
+    grid-template-columns: 100%;
     margin-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+}
+
+@media screen and (max-width: 320px) {
 }

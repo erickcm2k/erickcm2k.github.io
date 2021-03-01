@@ -1,13 +1,17 @@
+@import "../SASS/variables";
+
 .Navbar {
   width: 100vw;
   background-color: #eb550a;
   position: fixed;
+  z-index: 2;
   top: 0;
   transition: top 0.3s;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  
   &-hiden {
     width: 100vw;
-    background-color: #eb550a;
+    background-color: $main-orange;
     position: fixed;
     top: -10rem;
     transition: top 0.3s;

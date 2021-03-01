@@ -3,7 +3,7 @@ import Hero from "./Portfolio/Components/Hero";
 import Navbar from "./Shared/Navigation/Navbar";
 import ProjectSection from "./Portfolio/Components/ProjectSection";
 import BackToTop from "./Shared/BackToTop";
-import "./reset.css";
+import "./normalize.css";
 class App extends React.Component {
   render() {
     return (
