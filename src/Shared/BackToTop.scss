@@ -1,20 +1,27 @@
+@import "../Shared/SASS/variables";
+
 .BackToTopContainer {
   position: fixed;
   z-index: 2;
   bottom: 10rem;
-  color: #eb550a;
   right: 6rem;
   transition: opacity 0.3s;
-  border: 1px solid red;
   opacity: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
   border-radius: 50%;
   box-shadow: 0 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
+  &--light {
+    color: $neon-blue;
+    background-color: $pure-white;
+  }
+  &--dark {
+    color: $pure-white;
+    background-color: $deep-sky-blue;
+  }
 }
-.BackToTopContainer.Visible {
+.Visible {
   opacity: 1;
 }
 

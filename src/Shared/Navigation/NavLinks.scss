@@ -1,0 +1,34 @@
+@import "../SASS/variables";
+
+.Link {
+  font-family: "Poppins", sans-serif;
+  padding: 1.5rem 1rem;
+
+  font-size: 1.5rem;
+  // &:hover:not(:nth-child(1)) {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--light {
+    color: $nero;
+    &:hover {
+      color: $neon-blue;
+    }
+  }
+  &--dark {
+    color: $pattens-blue;
+    &:hover {
+      color: $deep-sky-blue;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Link {
+    font-size: 1.7rem;
+    &hover {
+      text-decoration: none;
+    }
+  }
+}

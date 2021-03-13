@@ -1,11 +1,20 @@
 import React from "react";
-import classes from "./ProjectSection.module.css";
+import "./ProjectSection.scss";
 import ProjectCardContainer from "./ProjectCardContainer";
 import Container from "../../Shared/Container/Container";
+import { useTheme } from "../../Hooks/ThemeProvider";
+
 const ProjectSection = () => {
+  const [theme] = useTheme();
+
   return (
-    <section id="project-section" className={classes.projectSection}>
-      <h1 className={classes.sectionTitle}>Projects</h1>
+    <section
+      id="project-section"
+      className={`projectSection projectSection__background--${theme}`}
+    >
+      <h1 className={`projectSection__title projectSection__title--${theme}`}>
+        Projects
+      </h1>
       <Container>
         <ProjectCardContainer />
       </Container>

@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-scroll";
-import classes from "./BackToTop.module.scss";
+import "./BackToTop.scss";
 import usePageOffset from "../Hooks/usePageOffset";
-
+import { useTheme } from "../Hooks/ThemeProvider";
 const BackToTop = () => {
+  const [theme] = useTheme();
   const windowSize = usePageOffset();
   return (
     <>
       <Link
         className={
           windowSize.y >= 800
-            ? `${classes.BackToTopContainer} ${classes.Visible}`
-            : `${classes.BackToTopContainer} `
+            ? `${`BackToTopContainer BackToTopContainer--${theme}`} ${`Visible`}`
+            : `${`BackToTopContainer BackToTopContainer--${theme}`} `
         }
         spy={true}
         to="hero"

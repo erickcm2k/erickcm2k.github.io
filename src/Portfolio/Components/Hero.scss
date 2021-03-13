@@ -1,0 +1,14 @@
+@import "../../Shared/SASS/variables";
+
+.hero {
+  padding-top: 10rem;
+
+  &--light {
+    background-color: $pattens-blue;
+  }
+  &--dark {
+    background-color: $dark-green;
+  }
+}
+
+

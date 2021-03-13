@@ -1,49 +1,65 @@
 import React from "react";
-import classes from "./ProjectCard.module.scss";
+import { useTheme } from "../../Hooks/ThemeProvider";
+import "./ProjectCard.scss";
 
 const ProjectCard = (props) => {
+  const [theme] = useTheme();
+
   const btnClick = (url) => {
     window.open(url);
   };
 
   const { projectImage } = props;
   return (
-    <article className={classes.card}>
-      <figure className={classes.projectImageContainer}>
+    <article className={`Card Card--${theme}`}>
+      <figure className={`Card__projectImageContainer`}>
         <img
           style={{ backgroundImage: projectImage }}
           src={props.projectImage}
           alt={props.projectName}
-          className={classes.projectImage}
+          className={`Card__projectImageContainer__projectImage`}
         />
       </figure>
-      <div className={classes.cardBody}>
-        <h2 className={classes.projectName}>{props.projectName}</h2>
-        <p className={classes.date}>{props.date}</p>
-        <p className={classes.description}>{props.description}</p>
-        <div className={classes.technologiesContainer}>
+      <div className={`Card__cardBody`}>
+        <h2
+          className={`Card__cardBody__projectName Card__cardBody__projectName--${theme}`}
+        >
+          {props.projectName}
+        </h2>
+        <p className={`Card__cardBody__date Card__cardBody__date--${theme}`}>
+          {props.date}
+        </p>
+        <p
+          className={`Card__cardBody__description Card__cardBody__description--${theme}`}
+        >
+          {props.description}
+        </p>
+        <div className={`Card__cardBody__technologiesContainer`}>
           {props.technologies.map((technologie) => {
             return (
-              <p key={technologie} className={classes.technologie}>
+              <p
+                key={technologie}
+                className={`Card__cardBody__technologiesContainer__technologie Card__cardBody__technologiesContainer__technologie--${theme}`}
+              >
                 {technologie}
               </p>
             );
           })}
         </div>
 
-        <div className={classes.buttonContainer}>
+        <div className={`Card__cardBody__buttonContainer`}>
           {props.github && (
             <button
               onClick={() => btnClick(props.github)}
-              className={classes.githubButton}
+              className={`Card__cardBody__buttonContainer__githubButton`}
             >
-              View on GitHub
+              Source <i className="fab fa-github fa-1x"></i>
             </button>
           )}
           {props.url && (
             <button
               onClick={() => btnClick(props.url)}
-              className={classes.visitButton}
+              className={`Card__cardBody__buttonContainer__visitButton Card__cardBody__buttonContainer__visitButton--${theme}`}
             >
               Visit
             </button>

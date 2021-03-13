@@ -1,11 +1,18 @@
 import React from "react";
 import { Link } from "react-scroll";
-import classes from "./NavLinks.module.scss";
+import "./NavLinks.scss";
+import { useTheme } from "../../Hooks/ThemeProvider";
+
 const NavLinks = (props) => {
+  const [theme, toggleTheme] = useTheme();
   return (
     <>
+      <div className={`Link Link--${theme}`}>
+        <i className={`fas fa-moon `} onClick={toggleTheme}></i>
+      </div>
+
       <Link
-        className={classes.Link}
+        className={`Link Link--${theme}`}
         spy={true}
         to="hero"
         smooth={true}
@@ -17,7 +24,7 @@ const NavLinks = (props) => {
       </Link>
 
       {/* <Link
-        className={classes.Link}
+        className={`Link Link--${theme}`}
         spy={true}
         to="project-section"
         smooth={true}
@@ -28,7 +35,7 @@ const NavLinks = (props) => {
         Skills
       </Link> */}
       <Link
-        className={classes.Link}
+        className={`Link Link--${theme}`}
         spy={true}
         to="project-section"
         smooth={true}
@@ -40,7 +47,7 @@ const NavLinks = (props) => {
       </Link>
 
       {/* <Link
-        className={classes.Link}
+        className={`Link Link--${theme}`}
         spy={true}
         to="project-section"
         smooth={true}
@@ -51,7 +58,7 @@ const NavLinks = (props) => {
         Blog
       </Link>
       <Link
-        className={classes.Link}
+        className={`Link Link--${theme}`}
         spy={true}
         to="project-section"
         smooth={true}
