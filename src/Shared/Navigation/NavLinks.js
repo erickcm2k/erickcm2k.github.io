@@ -8,7 +8,10 @@ const NavLinks = (props) => {
   return (
     <>
       <div className={`Link Link--${theme}`}>
-        <i className={`fas fa-moon `} onClick={toggleTheme}></i>
+        <i
+          className={theme === "light" ? "fas fa-moon" : "fas fa-sun"}
+          onClick={toggleTheme}
+        ></i>
       </div>
 
       <Link
