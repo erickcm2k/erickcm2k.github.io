@@ -1,7 +1,20 @@
-.typical-wrapper::after {
-  content: "|";
-  color: black;
-  animation: blink 1s infinite step-start;
+@import "../../Shared/SASS/variables";
+
+.typical-wrapper {
+  &--light {
+    &::after {
+      color: $nero;
+      content: "|";
+      animation: blink 1s infinite step-start;
+    }
+  }
+  &--dark {
+    &::after {
+      color: $pure-white;
+      content: "|";
+      animation: blink 1s infinite step-start;
+    }
+  }
 }
 
 @keyframes blink {

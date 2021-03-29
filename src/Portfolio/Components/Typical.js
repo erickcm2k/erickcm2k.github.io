@@ -25,7 +25,7 @@ const Typical = () => {
     <div className={`about-me__whatiam about-me__whatiam--${theme}`}>
       <div
         ref={typicalRef}
-        className={`typical-wrapper about-me__whatiam__text about-me__whatiam__text--${theme}`}
+        className={`typical-wrapper typical-wrapper--${theme} about-me__whatiam__text about-me__whatiam__text--${theme}`}
       ></div>
     </div>
   );

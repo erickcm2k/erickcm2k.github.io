@@ -1,4 +1,4 @@
-import React, { useState, createContext, useContext } from "react";
+import React, { useState, createContext, useContext, useEffect } from "react";
 
 const ThemeContext = createContext();
 
@@ -11,7 +11,20 @@ export const useTheme = () => {
 };
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const getCurrentTheme = window.matchMedia("(prefers-color-scheme: dark)")
+    .matches
+    ? "dark"
+    : "light";
+
+  useEffect(() => {
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (e) => {
+        setTheme(e.matches ? "dark" : "light");
+      });
+  }, []);
+
+  const [theme, setTheme] = useState(getCurrentTheme);
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
