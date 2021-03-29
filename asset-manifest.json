@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d34e7f0f.chunk.css",
-    "main.js": "/static/js/main.9c35c27c.chunk.js",
-    "main.js.map": "/static/js/main.9c35c27c.chunk.js.map",
+    "main.css": "/static/css/main.1b658cef.chunk.css",
+    "main.js": "/static/js/main.8d30f954.chunk.js",
+    "main.js.map": "/static/js/main.8d30f954.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90fbcd79.js",
     "runtime-main.js.map": "/static/js/runtime-main.90fbcd79.js.map",
     "static/js/2.f18bc181.chunk.js": "/static/js/2.f18bc181.chunk.js",
     "static/js/2.f18bc181.chunk.js.map": "/static/js/2.f18bc181.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d34e7f0f.chunk.css.map": "/static/css/main.d34e7f0f.chunk.css.map",
+    "static/css/main.1b658cef.chunk.css.map": "/static/css/main.1b658cef.chunk.css.map",
     "static/js/2.f18bc181.chunk.js.LICENSE.txt": "/static/js/2.f18bc181.chunk.js.LICENSE.txt",
     "static/media/biblioteca.c8631cb9.png": "/static/media/biblioteca.c8631cb9.png",
     "static/media/calculadora.12aa4016.png": "/static/media/calculadora.12aa4016.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.90fbcd79.js",
     "static/js/2.f18bc181.chunk.js",
-    "static/css/main.d34e7f0f.chunk.css",
-    "static/js/main.9c35c27c.chunk.js"
+    "static/css/main.1b658cef.chunk.css",
+    "static/js/main.8d30f954.chunk.js"
   ]
 }
