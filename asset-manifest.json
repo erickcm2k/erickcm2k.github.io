@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1b658cef.chunk.css",
-    "main.js": "/static/js/main.8d30f954.chunk.js",
-    "main.js.map": "/static/js/main.8d30f954.chunk.js.map",
+    "main.js": "/static/js/main.490bd2b7.chunk.js",
+    "main.js.map": "/static/js/main.490bd2b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90fbcd79.js",
     "runtime-main.js.map": "/static/js/runtime-main.90fbcd79.js.map",
     "static/js/2.f18bc181.chunk.js": "/static/js/2.f18bc181.chunk.js",
@@ -19,12 +19,12 @@
     "static/media/lcs.8ab8c52c.png": "/static/media/lcs.8ab8c52c.png",
     "static/media/Presentation.scss": "/static/media/me.a6ab6781.jpg",
     "static/media/nfa-validator.7a134ba5.png": "/static/media/nfa-validator.7a134ba5.png",
-    "static/media/resume.d8bbe560.pdf": "/static/media/resume.d8bbe560.pdf"
+    "static/media/resume-Erick-Castañeda-Martinez.ed9b04e0.pdf": "/static/media/resume-Erick-Castañeda-Martinez.ed9b04e0.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.90fbcd79.js",
     "static/js/2.f18bc181.chunk.js",
     "static/css/main.1b658cef.chunk.css",
-    "static/js/main.8d30f954.chunk.js"
+    "static/js/main.490bd2b7.chunk.js"
   ]
 }
