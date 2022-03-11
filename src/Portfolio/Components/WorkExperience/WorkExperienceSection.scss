@@ -1,0 +1,34 @@
+@import "../../../Shared/SASS/variables";
+
+.workExperienceSection {
+    &__background {
+      &--light {
+        background-color: $pure-white;
+      }
+      &--dark {
+        background-color: $cyprus;
+      }
+    }
+  
+    &__title {
+      font-size: 5rem;
+      padding-top: 5rem;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      text-align: center;
+  
+      &--light {
+        color: $neon-blue;
+      }
+      &--dark {
+        color: $deep-sky-blue;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .workExperienceSection__title {
+      padding-top: 2.5rem;
+      font-size: 3rem;
+    }
+  }

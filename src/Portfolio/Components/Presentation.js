@@ -1,6 +1,6 @@
 import React from "react";
 import "./Presentation.scss";
-import resume from "../../assets/pdf/Erick-Castañeda-Martinez-CV.pdf";
+import resume from "../../assets/pdf/resume.pdf";
 import { useTheme } from "../../Hooks/ThemeProvider";
 import Typical from "./Typical";
 const Presentation = () => {
