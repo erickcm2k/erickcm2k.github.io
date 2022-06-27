@@ -1,6 +1,5 @@
 import React from "react";
 import "./Presentation.scss";
-import resume from "../../assets/pdf/resume-Erick-Castañeda-Martinez.pdf";
 import { useTheme } from "../../Hooks/ThemeProvider";
 import Typical from "./Typical";
 const Presentation = () => {
@@ -22,7 +21,11 @@ const Presentation = () => {
           <Typical></Typical>
           <button
             className={`about-me__button about-me__button--${theme}`}
-            onClick={() => window.open(resume)}
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1fmNE8DTipammlw8x4YbuDb6zKdujn1FK/view?usp=sharing"
+              )
+            }
           >
             View my CV
           </button>
