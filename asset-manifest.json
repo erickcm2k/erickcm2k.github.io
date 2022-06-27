@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b658cef.chunk.css",
-    "main.js": "/static/js/main.39d58a93.chunk.js",
-    "main.js.map": "/static/js/main.39d58a93.chunk.js.map",
+    "main.css": "/static/css/main.ec6e16bb.chunk.css",
+    "main.js": "/static/js/main.2a0961cd.chunk.js",
+    "main.js.map": "/static/js/main.2a0961cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90fbcd79.js",
     "runtime-main.js.map": "/static/js/runtime-main.90fbcd79.js.map",
-    "static/js/2.9dc61423.chunk.js": "/static/js/2.9dc61423.chunk.js",
-    "static/js/2.9dc61423.chunk.js.map": "/static/js/2.9dc61423.chunk.js.map",
+    "static/js/2.91e15469.chunk.js": "/static/js/2.91e15469.chunk.js",
+    "static/js/2.91e15469.chunk.js.map": "/static/js/2.91e15469.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1b658cef.chunk.css.map": "/static/css/main.1b658cef.chunk.css.map",
-    "static/js/2.9dc61423.chunk.js.LICENSE.txt": "/static/js/2.9dc61423.chunk.js.LICENSE.txt",
-    "static/media/Erick-Castañeda-Martinez-CV.ddb77fba.pdf": "/static/media/Erick-Castañeda-Martinez-CV.ddb77fba.pdf",
+    "static/css/main.ec6e16bb.chunk.css.map": "/static/css/main.ec6e16bb.chunk.css.map",
+    "static/js/2.91e15469.chunk.js.LICENSE.txt": "/static/js/2.91e15469.chunk.js.LICENSE.txt",
     "static/media/biblioteca.c8631cb9.png": "/static/media/biblioteca.c8631cb9.png",
     "static/media/calculadora.12aa4016.png": "/static/media/calculadora.12aa4016.png",
     "static/media/career-quiz.8811d242.png": "/static/media/career-quiz.8811d242.png",
@@ -23,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.90fbcd79.js",
-    "static/js/2.9dc61423.chunk.js",
-    "static/css/main.1b658cef.chunk.css",
-    "static/js/main.39d58a93.chunk.js"
+    "static/js/2.91e15469.chunk.js",
+    "static/css/main.ec6e16bb.chunk.css",
+    "static/js/main.2a0961cd.chunk.js"
   ]
 }
