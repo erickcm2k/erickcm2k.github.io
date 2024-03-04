@@ -36,7 +36,7 @@ const Presentation = () => {
               window.open(publicKey)
             }
           >
-            Download my public key
+            View my public key
           </button>
         </div>
         <div className="picture-container">
