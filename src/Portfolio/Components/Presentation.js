@@ -2,7 +2,7 @@ import React from "react";
 import "./Presentation.scss";
 import { useTheme } from "../../Hooks/ThemeProvider";
 import publicKey from '../../assets/pdf/public-key.pdf'
- import Typical from "./Typical";
+//  import Typical from "./Typical";
 const Presentation = () => {
   const [theme] = useTheme();
 
@@ -19,7 +19,7 @@ const Presentation = () => {
             </span>
             !
           </div>
-          <Typical></Typical> 
+          {/* <Typical></Typical>  */}
           <button
             className={`about-me__button about-me__button--${theme}`}
             onClick={() =>
