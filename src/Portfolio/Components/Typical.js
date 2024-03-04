@@ -10,10 +10,13 @@ const Typical = () => {
   useEffect(() => {
     const typicalNode = typicalRef.current;
     const steps = [
+      "Hi, I'm Erick!",
       1000,
-      "I'm a Computer Engineering Student 🖥",
+      "I'm a Software Engineer 🖥",
       1000,
       "I'm a React Developer",
+      1000,
+      "I'm a SalesForce Developer",
       1000,
       "I'm a Star wars fan 🍿",
     ];

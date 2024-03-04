@@ -41,13 +41,13 @@ const Description = () => {
           </ul>
         </div>
         <div className={`message message--${theme}`}>
-          <p>Constantly trying to become the best version of myself.</p>
-          <p>
+          <p>Frontend developer - Salesforce Developer - Software Engineer at IBM</p>
+          {/* <p>
             Currently learning how to build web apps using the{" "}
             <span className="nodeish">ME</span>
             <span className="reactish">R</span>
             <span className="nodeish">N</span> stack.
-          </p>
+          </p> */}
         </div>
       </article>
     </div>
